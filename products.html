@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Catalog | Allentis Pharmaceuticals Pvt. Ltd.</title>
+  
+  <meta name="title" content="Products Catalog | Allentis Pharmaceuticals Pvt. Ltd.">
+  <meta name="description" content="Explore Allentis Pharmaceuticals 500+ WHO-GMP certified product list including Tablets, Capsules, Syrups, Injectables, Ointments, Eye Drops, Pediatric, and Nutraceuticals.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a4b94'/><path d='M30 50h40M50 30v40' stroke='%2300a896' stroke-width='12' stroke-linecap='round'/></svg>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.net/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Floating Main Header & Navbar -->
+  <header class="main-header-floating-wrapper">
+    <div class="main-header">
+      <nav class="navbar navbar-expand-lg py-1">
+        <div class="container-fluid px-2">
+          <!-- Logo -->
+          <a class="navbar-brand me-3" href="index.html">
+            <div class="brand-logo-icon">
+              <i class="fa-solid fa-capsules"></i>
+            </div>
+            <div>
+              <div class="brand-title">ALLENTIS</div>
+              <div class="brand-subtitle">PHARMACEUTICALS</div>
+            </div>
+          </a>
+
+          <!-- Mobile Toggler -->
+          <button class="navbar-toggler border-0 shadow-none px-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Nav Links -->
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              
+              <!-- Mega Menu Products -->
+              <li class="nav-item dropdown dropdown-mega">
+                <a class="nav-link dropdown-toggle active" href="products.html" id="productsDropdown" data-bs-toggle="dropdown">Products</a>
+                <div class="dropdown-menu mega-menu-content shadow-lg">
+                  <div class="row g-3">
+                    <div class="col-lg-3 col-md-6">
+                      <h6 class="fw-bold text-primary-brand mb-2"><i class="fa-solid fa-pills me-2"></i>Solid Formulations</h6>
+                      <a href="products.html?category=tablets" class="mega-menu-item"><div class="mega-icon"><i class="fa-solid fa-tablets"></i></div>Tablets & Caplets</a>
+                      <a href="products.html?category=capsules" class="mega-menu-item"><div class="mega-icon"><i class="fa-solid fa-capsules"></i></div>Hard & Soft Capsules</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <h6 class="fw-bold text-primary-brand mb-2"><i class="fa-solid fa-vial me-2"></i>Liquids & Injectables</h6>
+                      <a href="products.html?category=syrups" class="mega-menu-item"><div class="mega-icon"><i class="fa-solid fa-bottle-droplet"></i></div>Syrups & Suspensions</a>
+                      <a href="products.html?category=injectables" class="mega-menu-item"><div class="mega-icon"><i class="fa-solid fa-syringe"></i></div>Sterile Injectables</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <h6 class="fw-bold text-primary-brand mb-2"><i class="fa-solid fa-pump-medical me-2"></i>Topicals & Drops</h6>
+                      <a href="products.html?category=ointments" class="mega-menu-item"><div class="mega-icon"><i class="fa-solid fa-prescription-bottle"></i></div>Ointments & Creams</a>
+                      <a href="products.html?category=eyedrops" class="mega-menu-item"><div class="mega-icon"><i class="fa-solid fa-eye-dropper"></i></div>Eye & Ear Drops</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <h6 class="fw-bold text-primary-brand mb-2"><i class="fa-solid fa-leaf me-2"></i>Wellness & Specialties</h6>
+                      <a href="products.html?category=nutraceuticals" class="mega-menu-item"><div class="mega-icon"><i class="fa-solid fa-heart-pulse"></i></div>Nutraceuticals</a>
+                      <a href="products.html?category=ayurvedic" class="mega-menu-item"><div class="mega-icon"><i class="fa-solid fa-spa"></i></div>Ayurvedic Products</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="services.html">Services & PCD</a></li>
+              <li class="nav-item"><a class="nav-link" href="manufacturing.html">Manufacturing</a></li>
+              <li class="nav-item"><a class="nav-link" href="research.html">R&D</a></li>
+              <li class="nav-item"><a class="nav-link" href="quality.html">Quality</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+
+            <!-- Nav Action Buttons -->
+            <div class="d-flex align-items-center gap-2 mt-3 mt-lg-0">
+              <button id="themeToggleBtn" class="theme-toggle-btn" title="Toggle Light/Dark Theme">
+                <i class="fa-solid fa-moon"></i>
+              </button>
+              <button class="btn btn-primary-brand btn-sm btn-download-catalogue">
+                <i class="fa-solid fa-file-pdf me-1"></i> Catalogue
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="page-header-banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <span class="badge-pharma mb-2">WHO-GMP Formulations</span>
+          <h1 class="fw-bold display-5">Pharmaceutical Products Catalog</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Products</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <button class="btn btn-teal-brand btn-lg btn-download-catalogue"><i class="fa-solid fa-file-arrow-down me-2"></i> Download Catalogue (PDF)</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search & Filter Controls -->
+  <section class="py-4 bg-surface border-bottom sticky-top" style="top: 70px; z-index: 1020;">
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <!-- Live Search Input -->
+        <div class="col-lg-4">
+          <div class="input-group">
+            <span class="input-group-text bg-white border-end-0"><i class="fa-solid fa-search text-muted"></i></span>
+            <input type="text" id="productSearchInput" class="form-control border-start-0" placeholder="Search by name, API, or formulation...">
+          </div>
+        </div>
+
+        <!-- Filter Buttons Scrollable Container -->
+        <div class="col-lg-8">
+          <div class="d-flex gap-2 overflow-x-auto pb-2 pb-lg-0" style="white-space: nowrap;">
+            <button class="btn btn-primary-brand btn-sm category-filter-btn active" data-category="all">All Formulations</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="tablets">Tablets</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="capsules">Capsules</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="syrups">Syrups</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="injectables">Injectables</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="ointments">Ointments & Creams</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="eyedrops">Eye Drops</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="pediatric">Pediatric</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="nutraceuticals">Nutraceuticals</button>
+            <button class="btn btn-outline-brand btn-sm category-filter-btn" data-category="ayurvedic">Ayurvedic</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Product Grid -->
+  <section class="py-5">
+    <div class="container py-3">
+      
+      <!-- No Products Found Message -->
+      <div id="noProductsFound" class="text-center py-5" style="display: none;">
+        <i class="fa-solid fa-triangle-exclamation fs-1 text-muted mb-3"></i>
+        <h4 class="fw-bold">No Formulations Found</h4>
+        <p class="text-muted">Try adjusting your search keywords or clearing the category filter.</p>
+      </div>
+
+      <div class="row g-4" id="productGridContainer">
+        
+        <!-- Item 1: Tablets -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="tablets">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Tablet</span>
+              <img src="https://picsum.photos/seed/med1/400/300" alt="Allenclav 625" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Allenclav-625 Tablets</h5>
+              <p class="product-desc">Amoxycillin 500mg + Potassium Clavulanate 125mg. Indicated for severe lower respiratory, sinus, and urinary tract infections.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Composition: Amoxycillin + Clavulanate</span><br>
+                <span><i class="fa-solid fa-box me-1"></i> Pack: 10 x 10 Strip (Alu-Alu)</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="Allenclav-625 Tablets"
+                      data-category="Tablets & Antibiotics"
+                      data-composition="Amoxycillin Trihydrate IP 500mg + Potassium Clavulanate IP 125mg"
+                      data-packaging="10 x 10 Strip Pack (Alu-Alu)"
+                      data-indication="Effective against penicillinase-producing bacterial strains in ENT, respiratory, and soft tissue infections."
+                      data-img="https://picsum.photos/seed/med1/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Capsules -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="capsules">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Capsule</span>
+              <img src="https://picsum.photos/seed/med2/400/300" alt="Allencid DSR" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Allencid-DSR Capsules</h5>
+              <p class="product-desc">Rabeprazole EC 20mg + Domperidone SR 30mg. Advanced Dual-action anti-reflux capsule for GERD.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Composition: Rabeprazole + Domperidone</span><br>
+                <span><i class="fa-solid fa-box me-1"></i> Pack: 10 x 10 Blister</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="Allencid-DSR Capsules"
+                      data-category="Gastrointestinal Care"
+                      data-composition="Rabeprazole Sodium EC 20mg + Domperidone SR 30mg"
+                      data-packaging="10 x 10 Capsules Blister Pack"
+                      data-indication="Protects stomach lining, prevents acid reflux, relieves bloating, nausea, and epigastric pain."
+                      data-img="https://picsum.photos/seed/med2/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Syrups -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="syrups">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Syrup</span>
+              <img src="https://picsum.photos/seed/med3/400/300" alt="Allenfen Cough Syrup" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Allenfen Expectorant Syrup</h5>
+              <p class="product-desc">Levosalbutamol 1mg + Ambroxol 30mg + Guaiphenesin 50mg. Sugar-free bronchial mucolytic syrup.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Respiratory Expectorant</span><br>
+                <span><i class="fa-solid fa-bottle-droplet me-1"></i> Pack: 100 ml Pet Bottle</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="Allenfen Expectorant Syrup"
+                      data-category="Oral Syrups & Respiratory"
+                      data-composition="Levosalbutamol 1mg + Ambroxol HCl 30mg + Guaiphenesin 50mg / 5ml"
+                      data-packaging="100ml PET Bottle in Outer Carton with Measuring Cap"
+                      data-indication="Thins thick mucus, dilates airways, and eases chest congestion in bronchitis and asthma."
+                      data-img="https://picsum.photos/seed/med3/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Injectables -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="injectables">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Injectable</span>
+              <img src="https://picsum.photos/seed/med4/400/300" alt="AllenCEF 1g Injection" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">AllenCEF-1g Injection</h5>
+              <p class="product-desc">Sterile Ceftriaxone Sodium 1000mg. High-purity cephalosporin antibiotic for critical IV/IM administration.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Critical Care Antibiotic</span><br>
+                <span><i class="fa-solid fa-vial me-1"></i> Pack: Glass Vial + Sterile WFI</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="AllenCEF-1g Injection"
+                      data-category="Injectables & Critical Care"
+                      data-composition="Sterile Ceftriaxone Sodium IP 1000mg"
+                      data-packaging="USP Type-1 Glass Vial with 10ml Water for Injection"
+                      data-indication="Indicated in severe hospital infections, meningitis, sepsis, and post-surgical prophylaxis."
+                      data-img="https://picsum.photos/seed/med4/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5: Ointments -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="ointments">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Ointment</span>
+              <img src="https://picsum.photos/seed/med5/400/300" alt="Allenderm Cream" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Allenderm-Plus Cream</h5>
+              <p class="product-desc">Clobetasol Propionate + Neomycin + Miconazole Nitrate. Multi-action dermatological cream.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Topical Dermatology</span><br>
+                <span><i class="fa-solid fa-prescription-bottle me-1"></i> Pack: 15g Lami Tube</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="Allenderm-Plus Cream"
+                      data-category="Ointments & Creams"
+                      data-composition="Clobetasol Propionate 0.05% + Neomycin 0.5% + Miconazole 2.0%"
+                      data-packaging="15g Laminated Aluminium Tube"
+                      data-indication="Treats bacterial and fungal skin infections, eczema, psoriasis, and inflammatory dermatitis."
+                      data-img="https://picsum.photos/seed/med5/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6: Eye Drops -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="eyedrops">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Eye Drops</span>
+              <img src="https://picsum.photos/seed/med6/400/300" alt="Allenfresh Eye Drops" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Allenfresh Eye Drops</h5>
+              <p class="product-desc">Carboxymethylcellulose Sodium 0.5% w/v. Preservative-free lubricating eye drops for dry eyes.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Ophthalmic Solution</span><br>
+                <span><i class="fa-solid fa-eye-dropper me-1"></i> Pack: 10ml Sterile Vial</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="Allenfresh Eye Drops"
+                      data-category="Ophthalmic & Eye Drops"
+                      data-composition="Carboxymethylcellulose Sodium IP 0.5% w/v"
+                      data-packaging="10ml Sterile Dropper Bottle"
+                      data-indication="Provides soothing relief from ocular dryness, computer vision strain, irritation, and burning."
+                      data-img="https://picsum.photos/seed/med6/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7: Pediatric -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="pediatric">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Pediatric</span>
+              <img src="https://picsum.photos/seed/med7/400/300" alt="Allenmol Drops" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Allenmol Paediatric Drops</h5>
+              <p class="product-desc">Paracetamol 100mg / ml Oral Drops with delicious fruit flavor for infant fever relief.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Pediatric Antipyretic</span><br>
+                <span><i class="fa-solid fa-droplet me-1"></i> Pack: 15ml Glass Bottle + Calibrated Dropper</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="Allenmol Paediatric Drops"
+                      data-category="Pediatric Care"
+                      data-composition="Paracetamol IP 100mg per ml"
+                      data-packaging="15ml Glass Bottle with Dropper"
+                      data-indication="Rapidly reduces fever and relieves minor body aches, teething discomfort, and post-vaccination pain in infants."
+                      data-img="https://picsum.photos/seed/med7/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 8: Nutraceuticals -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="nutraceuticals">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Nutraceutical</span>
+              <img src="https://picsum.photos/seed/med8/400/300" alt="Allenvit Multivitamin" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Allenvit-Gold Softgels</h5>
+              <p class="product-desc">Multivitamins, Multiminerals, Ginseng Extract, Antioxidants & Omega-3 Fatty Acids.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Daily Wellness Supplement</span><br>
+                <span><i class="fa-solid fa-capsules me-1"></i> Pack: 10x1x10 Softgel Blister</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="Allenvit-Gold Softgel Capsules"
+                      data-category="Nutraceuticals & Vitamins"
+                      data-composition="Ginseng 42.5mg + Vitamin C, E, B-Complex + Zinc, Selenium + Omega-3"
+                      data-packaging="10 x 10 Softgel Capsules in Alu-Alu Pack"
+                      data-indication="Boosts immunity, enhances energy levels, combats oxidative fatigue, and supports cardiovascular health."
+                      data-img="https://picsum.photos/seed/med8/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 9: Ayurvedic -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="ayurvedic">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <span class="product-tag">Ayurvedic</span>
+              <img src="https://picsum.photos/seed/med9/400/300" alt="Allencare Herbal Liver Tonic" class="product-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Allencare Herbal Liver Syrup</h5>
+              <p class="product-desc">Bhringraj, Punarnava, Kalmegh, Sharpunkha & Giloy. 100% Herbal Hepatoprotective Formulation.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-layer-group me-1"></i> Ayurvedic Liver Care</span><br>
+                <span><i class="fa-solid fa-bottle-droplet me-1"></i> Pack: 200ml Bottle in Box</span>
+              </div>
+              <button class="btn btn-outline-brand w-100 view-product-details" 
+                      data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                      data-name="Allencare Herbal Liver Syrup"
+                      data-category="Ayurvedic & Herbal"
+                      data-composition="Ext. Bhringraj 200mg, Kalmegh 150mg, Punarnava 100mg, Giloy 100mg"
+                      data-packaging="200ml Amber PET Bottle with Measuring Cap"
+                      data-indication="Promotes liver cell regeneration, improves digestion, protects against toxin overload, and enhances appetite."
+                      data-img="https://picsum.photos/seed/med9/600/400">
+                <i class="fa-solid fa-eye me-1"></i> View Formulation Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="productDetailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-surface">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-header-title fw-bold mb-0" id="modalProdTitle">Product Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-5">
+              <img id="modalProdImg" src="" alt="Product Detail" class="img-fluid rounded-3 shadow-sm" referrerPolicy="no-referrer">
+            </div>
+            <div class="col-md-7">
+              <span id="modalProdCat" class="badge-pharma mb-2">Category</span>
+              <h4 class="fw-bold mb-3 text-primary-brand" id="modalProdTitleSub">Formulation Overview</h4>
+              
+              <div class="mb-3">
+                <strong class="d-block text-muted small">COMPOSITION:</strong>
+                <p id="modalProdComp" class="fw-semibold text-main mb-0"></p>
+              </div>
+
+              <div class="mb-3">
+                <strong class="d-block text-muted small">PACKAGING SPECIFICATION:</strong>
+                <p id="modalProdPack" class="text-main mb-0"></p>
+              </div>
+
+              <div class="mb-3">
+                <strong class="d-block text-muted small">THERAPEUTIC INDICATIONS:</strong>
+                <p id="modalProdIndic" class="text-muted small mb-0"></p>
+              </div>
+
+              <hr>
+
+              <form class="needs-validation" novalidate>
+                <input type="hidden" id="inquiryProductName" value="">
+                <div class="row g-2">
+                  <div class="col-6">
+                    <input type="text" class="form-control form-control-sm" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-6">
+                    <input type="tel" class="form-control form-control-sm" placeholder="Phone / WhatsApp" required>
+                  </div>
+                  <div class="col-12 mt-2">
+                    <button type="submit" class="btn btn-teal-brand btn-sm w-100"><i class="fa-solid fa-envelope me-1"></i> Submit Quick Inquiry For This Product</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="brand-logo-icon" style="width: 38px; height: 38px;"><i class="fa-solid fa-capsules"></i></div>
+            <span class="fs-4 fw-bold text-white">ALLENTIS</span>
+          </div>
+          <p class="small text-muted mb-3">Allentis Pharmaceuticals Pvt. Ltd. is dedicated to high-quality healthcare solutions worldwide.</p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services & PCD</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Therapeutic Divisions</h5>
+          <ul class="footer-links">
+            <li><a href="products.html?category=tablets">Tablets</a></li>
+            <li><a href="products.html?category=capsules">Capsules</a></li>
+            <li><a href="products.html?category=syrups">Syrups</a></li>
+            <li><a href="products.html?category=injectables">Injectables</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Corporate Office</h5>
+          <p class="small text-muted mb-2"><i class="fa-solid fa-location-dot text-teal-brand me-2"></i>MIDC Estate, Mumbai 400093, India</p>
+          <p class="small text-muted mb-2"><i class="fa-solid fa-phone text-teal-brand me-2"></i>+91 22 8890 1234</p>
+          <p class="small text-muted"><i class="fa-solid fa-envelope text-teal-brand me-2"></i>info@allentispharma.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        &copy; 2026 <strong>Allentis Pharmaceuticals Pvt. Ltd.</strong> All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Widgets -->
+  <div class="floating-actions">
+    <a href="https://wa.me/919820012345" target="_blank" class="floating-btn floating-whatsapp" title="WhatsApp Us"><i class="fa-brands fa-whatsapp"></i></a>
+    <button id="scrollTopBtn" class="floating-btn scroll-top-btn" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>

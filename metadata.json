@@ -1,0 +1,6 @@
+{
+  "name": "Allentis Pharmaceuticals",
+  "description": "Corporate website for Allentis Pharmaceuticals Pvt. Ltd., an Indian pharmaceutical company delivering high-quality, affordable healthcare solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
